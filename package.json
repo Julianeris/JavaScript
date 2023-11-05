@@ -1,5 +1,13 @@
 {
-  "devDependencies": {
-    "prettier": "3.0.3"
-  }
+  "name": "objetos",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "aula1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
