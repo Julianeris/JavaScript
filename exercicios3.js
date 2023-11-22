@@ -77,3 +77,42 @@ console.log(animal.length);
 console.log(animal.charAt(3));
 console.log(animal.substring(2,4));
 console.log(animalCompleto);
+
+// backend simples
+const mensagem = "Olá mundo!";
+console.log(mensagem)
+
+// Declaração de variáveis 
+const peso = 50;
+let ano = 2;
+var gramas = 100;
+
+console.log(peso, ano, gramas)
+
+// Escopo de blocos
+const valorProduto = 100
+const poupanca = 120
+
+if (true) {
+    let dentroDoBloco = "Estou dentro"
+    console.log(dentroDoBloco);
+}
+
+// Reatribuição com let 
+let valorLet = 10;
+valorLet = valorLet + 100;
+console.log(valorLet)
+
+let nomeLet = "Ana";
+nomeLet = nomeLet + "Maria";
+console.log(nomeLet)
+
+let sobrenome = "Braga"
+let nomeCompleteLet = nomeLet.concat(sobrenome);
+console.log(nomeCompleteLet)
+
+// reatribuição com const (erro)
+
+const valorConst = 10;
+valorConst = valorConst + 100;
+console.log(valorConst); ///TypeError: Assignment to constant variable.
